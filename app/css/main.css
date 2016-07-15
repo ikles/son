@@ -1,0 +1,338 @@
+.toggle-mnu {
+  display: block;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  line-height: 48px; }
+
+.toggle-mnu {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin: 25px 15px; }
+  .toggle-mnu:focus {
+    outline: none; }
+
+.toggle-mnu span:after,
+.toggle-mnu span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px; }
+
+.toggle-mnu span:after {
+  top: 9px; }
+
+.toggle-mnu span {
+  position: relative;
+  display: block; }
+
+.toggle-mnu span,
+.toggle-mnu span:after,
+.toggle-mnu span:before {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
+
+.toggle-mnu.on span {
+  background-color: transparent; }
+
+.toggle-mnu.on span:before {
+  -webkit-transform: rotate(45deg) translate(5px, 5px);
+      -ms-transform: rotate(45deg) translate(5px, 5px);
+          transform: rotate(45deg) translate(5px, 5px); }
+
+.toggle-mnu.on span:after {
+  -webkit-transform: rotate(-45deg) translate(7px, -8px);
+      -ms-transform: rotate(-45deg) translate(7px, -8px);
+          transform: rotate(-45deg) translate(7px, -8px); }
+
+.toggle-mnu.on + #menu {
+  opacity: 1;
+  visibility: visible; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+:focus {
+  outline: 0; }
+
+body {
+  line-height: 1;
+  color: black;
+  background: white; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after {
+  content: ""; }
+
+q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+li {
+  list-style: none; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+@font-face {
+  font-family: MuseoSansCyrl900I;
+  src: url(../fonts/MuseoSansCyrl_900_Italic.otf); }
+
+@font-face {
+  font-family: MuseoSansCyrl900;
+  src: url(../fonts/MuseoSansCyrl_900.otf); }
+
+@font-face {
+  font-family: MuseoSansCyrl700;
+  src: url(../fonts/MuseoSansCyrl_700.otf); }
+
+@font-face {
+  font-family: MuseoSansCyrl500;
+  src: url(../fonts/MuseoSansCyrl_500.otf); }
+
+@font-face {
+  font-family: MuseoSansCyrl300;
+  src: url(../fonts/MuseoSansCyrl_300.otf); }
+
+@font-face {
+  font-family: MuseoSansCyrl700I;
+  src: url(../fonts/MuseoSansCyrl_700_Italic.otf); }
+
+@font-face {
+  font-family: MuseoSansCyrl300I;
+  src: url(../fonts/MuseoSansCyrl_300_Italic.otf); }
+
+@font-face {
+  font-family: RobotoM;
+  src: url(../fonts/roboto-medium.ttf); }
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto-regular.ttf); }
+
+@font-face {
+  font-family: RobotoB;
+  src: url(../fonts/roboto-bold.ttf); }
+
+@font-face {
+  font-family: RobotoBL;
+  src: url(../fonts/roboto-black.ttf); }
+
+@font-face {
+  font-family: RobotoMI;
+  src: url(../fonts/roboto-medium-italic.ttf); }
+
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url(../fonts/Trebuchet_MS.ttf); }
+
+@font-face {
+  font-family: "Trebuchet MSI";
+  src: url(../fonts/trebucbi.ttf); }
+
+@font-face {
+  font-family: "Trebuchet MSB";
+  src: url(../fonts/Trebuchet_MS_b.ttf); }
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans-Regular.ttf); }
+
+@font-face {
+  font-family: OpenSansI;
+  src: url(../fonts/OpenSans-Italic.ttf); }
+
+@font-face {
+  font-family: OpenSansSB;
+  src: url(../fonts/OpenSans-Semibold.ttf); }
+
+@font-face {
+  font-family: OpenSansB;
+  src: url(../fonts/OpenSans-Bold.ttf); }
+
+@font-face {
+  font-family: UniSansHeavyCAPS;
+  src: url(../fonts/Uni_Sans_Heavy.otf); }
+
+@font-face {
+  font-family: UniSansThinCAPS;
+  src: url(../fonts/Uni_Sans_Thin.otf); }
+
+.nopadding {
+  padding: 0 !important; }
+
+.nopadding-l {
+  padding-left: 0 !important; }
+
+.nopadding-r {
+  padding-right: 0 !important; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto; }
+
+.w_1200 {
+  margin: auto;
+  width: 1200px; }
+
+.slider {
+  width: 100%;
+  margin: auto; }
+
+.col-mnu {
+  margin-top: 27px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.top_mnu {
+  position: relative;
+  z-index: 1;
+  float: right !important; }
+  .top_mnu ul {
+    margin: 0; }
+  .top_mnu li {
+    float: left;
+    list-style: none;
+    line-height: 1;
+    margin-right: 52px; }
+    .top_mnu li:first-child {
+      margin-left: 0; }
+    .top_mnu li:last-child {
+      margin-right: 0; }
+  .top_mnu a {
+    color: #000;
+    display: block;
+    font-family: OpenSansSB;
+    font-size: 15px;
+    line-height: 1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .main-mnu {
+    display: none;
+    float: right;
+    min-width: 250px;
+    text-align: right;
+    background-color: #1C242C;
+    width: auto;
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    height: auto;
+    z-index: 10;
+    margin-top: 0; }
+    .main-mnu ul {
+      display: inline; }
+    .main-mnu li {
+      display: block;
+      float: none;
+      margin: 0; }
+    .main-mnu a {
+      display: block;
+      color: #FFF;
+      -webkit-border-radius: 0;
+              border-radius: 0;
+      border: none;
+      padding: 10px;
+      text-align: right;
+      border-radius: 0; }
+      .main-mnu a:hover {
+        text-decoration: none;
+        -webkit-border-radius: 0;
+                border-radius: 0; }
+    .main-mnu a:hover, .main-mnu li.active a {
+      border: none;
+      -webkit-border-radius: 0;
+              border-radius: 0; }
+  .col-mnu {
+    float: right !important;
+    margin-top: 15px; }
+  .top_mnu li:last-child {
+    margin-right: 0; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/ }
+
+@media only screen and (max-width: 640px) {
+  /**/ }
+
+@media only screen and (max-width: 570px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+@media only screen and (max-width: 400px) {
+  /**/ }
+
+@media only screen and (max-width: 360px) {
+  /**/ }
+
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 1200px) {
+  .main-mnu {
+    display: block !important; }
+  a {
+    outline: none !important; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }

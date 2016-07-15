@@ -1,0 +1,106 @@
+@import _mnu
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-weight: inherit
+  font-style: inherit
+  font-size: 100%
+  font-family: inherit
+  vertical-align: baseline
+
+\:focus
+  outline: 0
+
+body
+  line-height: 1
+  color: black
+  background: white
+
+ol, ul
+  list-style: none
+
+table
+  border-collapse: separate
+  border-spacing: 0
+
+caption, th, td
+  text-align: left
+  font-weight: normal
+
+blockquote
+  &:before, &:after
+    content: ""
+
+q
+  &:before, &:after
+    content: ""
+
+blockquote, q
+  quotes: "" ""
+
+li 
+	list-style: none
+
+ul 
+	padding: 0
+	margin: 0
+
+@import _fonts
+
+.nopadding 
+	padding: 0 !important
+	
+.nopadding-l 
+	padding-left: 0 !important
+
+.nopadding-r 
+	padding-right: 0 !important
+
+.wrapper 
+	width: 100%
+	max-width: 1920px 
+	margin: auto
+
+.w_1200
+	margin: auto
+	width: 1200px
+
+.slider
+	width: 100%
+	margin: auto
+
+.col-mnu  
+	margin-top: 27px
+	box-sizing: border-box
+
+.top_mnu
+	position: relative
+	z-index: 1
+	float: right !important
+	ul
+		margin: 0
+	li 
+		float: left
+		list-style: none
+		line-height: 1
+		margin-right: 52px
+		&:first-child 
+			margin-left: 0
+		&:last-child 
+			margin-right: 0	
+	a 		
+		color: #000
+		display: block
+		font-family: OpenSansSB
+		font-size: 15px
+		line-height: 1
+		box-sizing: border-box
+		text-align: center
+		&:hover
+			
+
+
+@import _media
