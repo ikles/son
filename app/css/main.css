@@ -107,7 +107,15 @@ ul {
 
 @font-face {
   font-family: Corki;
+  src: url(../fonts/corkituscan.eot); }
+
+@font-face {
+  font-family: Corki;
   src: url(../fonts/corkituscan.ttf); }
+
+@font-face {
+  font-family: Eurofurenceregular;
+  src: url(../fonts/eurof55.eot); }
 
 @font-face {
   font-family: Eurofurenceregular;
@@ -115,7 +123,15 @@ ul {
 
 @font-face {
   font-family: Exo2EL;
+  src: url(../fonts/exo2extralight.eot); }
+
+@font-face {
+  font-family: Exo2EL;
   src: url(../fonts/exo2extralight.ttf); }
+
+@font-face {
+  font-family: Exo2;
+  src: url(../fonts/Exo2-Regular.eot); }
 
 @font-face {
   font-family: Exo2;
@@ -123,11 +139,23 @@ ul {
 
 @font-face {
   font-family: Exo2L;
+  src: url(../fonts/exo2LightCond.eot); }
+
+@font-face {
+  font-family: Exo2L;
   src: url(../fonts/exo2LightCond.otf); }
 
 @font-face {
   font-family: PTSans;
+  src: url(../fonts/ptsans.eot); }
+
+@font-face {
+  font-family: PTSans;
   src: url(../fonts/ptsans.ttf); }
+
+@font-face {
+  font-family: Exo2SB;
+  src: url(../fonts/exo2semibold.eot); }
 
 @font-face {
   font-family: Exo2SB;
