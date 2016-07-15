@@ -359,17 +359,17 @@ input.block
 .two_words_about_us
 	background-color: #FFF 
 	overflow: hidden
-	.like_h2
-		color: rgb(48, 48, 48)
-		font-family: Exo2L
-		font-size: 48px
-		line-height: 48px
-		text-transform: uppercase
-		margin-top: 170px
-		padding-bottom: 22px
-		border-bottom: 4px solid rgb(240, 240, 240) 
-		b
-			font-family: Exo2 
+.two_words_about_us_like_h2
+	color: rgb(48, 48, 48)
+	font-family: Exo2L
+	font-size: 48px
+	line-height: 48px
+	text-transform: uppercase
+	margin-top: 170px
+	padding-bottom: 22px
+	border-bottom: 4px solid rgb(240, 240, 240) 
+	b
+		font-family: Exo2 
 
 .about_us_text
 	padding-top: 70px
@@ -377,6 +377,7 @@ input.block
 	font-family: PTSans
 	font-size: 16px
 	line-height: 24px
+	padding-bottom: 70px
 	p
 		margin-bottom: 35px
 		&:last-child
@@ -392,5 +393,104 @@ input.block
 .about_us_heading
 	padding-right: 40px
 	box-sizing: border-box
+	
+.our_services_line
+	@extend .order_consalt
+	margin-top: 0
+	padding-top: 0
+	.w_1200	
+		padding: 0 15px
+
+.our_services_heading
+	background: url("../img/services_icon.png") no-repeat 0 0
+	padding-left: 137px
+	min-height: 112px
+	overflow: hidden
+	padding-top: 37px
+	h2
+		color: rgb(250, 250, 250)
+		font-family: Exo2L
+		font-size: 32px
+		text-transform: uppercase
+	p
+		color: white
+		font-family: PTSans
+		font-size: 14px
+		line-height: 24px
+
+.w_1200.our_services
+	background-color: #F0F0F0
+	padding-bottom: 65px
+	overflow: hidden
+	p
+		color: rgb(48, 48, 48)
+		font-family: PTSans
+		font-size: 14px
+		line-height: 16px
+	> div
+		.img_a
+			display: block
+			font-size: 0
+			width: 270px
+			height: 192px
+			overflow: hidden
+			position: relative
+			margin-bottom: 18px
+			&:after
+				display: none
+				position: absolute
+				top: 0
+				left: 0
+				background-color: rgba(34, 153, 238, 0.7)
+				content: "" 
+				width: 270px
+				height: 192px
+			&:hover:after
+				display: block
+			&:hover:before
+				background-color: rgb(48, 48, 48)
+			&:before
+				display: block
+				position: absolute
+				width: 40px
+				height: 40px
+				content: ""
+				right: 0
+				bottom: 16px
+				z-index: 10
+				background: rgb(34, 153, 238) url("../img/arrow_min.png") no-repeat center center
+	h3
+		a
+			color: rgb(48, 48, 48)
+			font-family: Exo2SB
+			font-size: 20px
+			text-transform: uppercase		
+			padding-bottom: 15px
+			display: block
+			position: relative
+			margin-bottom: 16px
+			&:hover
+				text-decoration: none
+			&:after
+				display: block
+				position: absolute
+				bottom: 0
+				left: 0
+				width: 100%
+				height: 3px
+				content: "" 
+				background-color: rgb(227, 227, 227)
+				border-left: 42px solid rgb(70, 74, 77)
+					
+.order_consalt2
+	margin-top: 0
+	
+.last_art
+	.like_h2
+		@extend .two_words_about_us_like_h2
+
+.last_art_text
+	>	div
+		 
 
 @import _media

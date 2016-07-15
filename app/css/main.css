@@ -129,6 +129,10 @@ ul {
   font-family: PTSans;
   src: url(../fonts/ptsans.ttf); }
 
+@font-face {
+  font-family: Exo2SB;
+  src: url(../fonts/exo2semibold.ttf); }
+
 .nopadding {
   padding: 0 !important; }
 
@@ -389,7 +393,7 @@ input.block {
     font-weight: 400;
     line-height: 16px; }
 
-.order_consalt {
+.order_consalt, .our_services_line {
   width: 100%;
   height: 112px;
   background-color: #464a4d;
@@ -446,24 +450,26 @@ input.block {
 .two_words_about_us {
   background-color: #FFF;
   overflow: hidden; }
-  .two_words_about_us .like_h2 {
-    color: #303030;
-    font-family: Exo2L;
-    font-size: 48px;
-    line-height: 48px;
-    text-transform: uppercase;
-    margin-top: 170px;
-    padding-bottom: 22px;
-    border-bottom: 4px solid #f0f0f0; }
-    .two_words_about_us .like_h2 b {
-      font-family: Exo2; }
+
+.two_words_about_us_like_h2, .last_art .like_h2 {
+  color: #303030;
+  font-family: Exo2L;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-top: 170px;
+  padding-bottom: 22px;
+  border-bottom: 4px solid #f0f0f0; }
+  .two_words_about_us_like_h2 b, .last_art .like_h2 b {
+    font-family: Exo2; }
 
 .about_us_text {
   padding-top: 70px;
   color: #303030;
   font-family: PTSans;
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 24px;
+  padding-bottom: 70px; }
   .about_us_text p {
     margin-bottom: 35px; }
     .about_us_text p:last-child {
@@ -480,6 +486,94 @@ input.block {
   padding-right: 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+
+.our_services_line {
+  margin-top: 0;
+  padding-top: 0; }
+  .our_services_line .w_1200 {
+    padding: 0 15px; }
+
+.our_services_heading {
+  background: url("../img/services_icon.png") no-repeat 0 0;
+  padding-left: 137px;
+  min-height: 112px;
+  overflow: hidden;
+  padding-top: 37px; }
+  .our_services_heading h2 {
+    color: #fafafa;
+    font-family: Exo2L;
+    font-size: 32px;
+    text-transform: uppercase; }
+  .our_services_heading p {
+    color: white;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 24px; }
+
+.w_1200.our_services {
+  background-color: #F0F0F0;
+  padding-bottom: 65px;
+  overflow: hidden; }
+  .w_1200.our_services p {
+    color: #303030;
+    font-family: PTSans;
+    font-size: 14px;
+    line-height: 16px; }
+  .w_1200.our_services > div .img_a {
+    display: block;
+    font-size: 0;
+    width: 270px;
+    height: 192px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 18px; }
+    .w_1200.our_services > div .img_a:after {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(34, 153, 238, 0.7);
+      content: "";
+      width: 270px;
+      height: 192px; }
+    .w_1200.our_services > div .img_a:hover:after {
+      display: block; }
+    .w_1200.our_services > div .img_a:hover:before {
+      background-color: #303030; }
+    .w_1200.our_services > div .img_a:before {
+      display: block;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      content: "";
+      right: 0;
+      bottom: 16px;
+      z-index: 10;
+      background: #2299ee url("../img/arrow_min.png") no-repeat center center; }
+  .w_1200.our_services h3 a {
+    color: #303030;
+    font-family: Exo2SB;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    display: block;
+    position: relative;
+    margin-bottom: 16px; }
+    .w_1200.our_services h3 a:hover {
+      text-decoration: none; }
+    .w_1200.our_services h3 a:after {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      content: "";
+      background-color: #e3e3e3;
+      border-left: 42px solid #464a4d; }
+
+.order_consalt2 {
+  margin-top: 0; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
