@@ -133,6 +133,10 @@ ul {
   font-family: Exo2SB;
   src: url(../fonts/exo2semibold.ttf); }
 
+@font-face {
+  font-family: MinionPro;
+  src: url(../fonts/MinionPro-Regular.otf); }
+
 .nopadding {
   padding: 0 !important; }
 
@@ -147,7 +151,6 @@ ul {
   max-width: 1920px;
   margin: auto;
   overflow: hidden;
-  background-color: #F0F0F0;
   position: relative; }
 
 .w_1200 {
@@ -500,7 +503,7 @@ input.block {
   padding-left: 137px;
   min-height: 112px;
   overflow: hidden;
-  padding-top: 37px; }
+  padding-top: 30px; }
   .our_services_heading h2 {
     color: #fafafa;
     font-family: Exo2L;
@@ -577,6 +580,9 @@ input.block {
 .order_consalt2 {
   margin-top: 0; }
 
+.last_art {
+  background-color: #FFF; }
+
 .last_art_text {
   padding-top: 40px; }
   .last_art_text h3 a span {
@@ -599,7 +605,31 @@ input.block {
 .bottom {
   background-color: #303030;
   overflow: hidden;
-  width: 100%; }
+  width: 100%;
+  min-height: 310px; }
+  .bottom .w_1200 {
+    overflow: hidden; }
+  .bottom ul {
+    width: 170px;
+    padding: 10px 0;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: #464a4d; }
+    .bottom ul a {
+      display: block;
+      width: 100%;
+      height: 30px;
+      width: 100%;
+      font-family: PTSans;
+      color: #f0f0f0;
+      font-size: 14px;
+      padding: 7px 18px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      .bottom ul a:hover {
+        text-decoration: none;
+        background-color: #54585b; }
 
 .logo2 {
   width: 271px;
@@ -612,6 +642,85 @@ input.block {
   .logo2 img {
     width: 271px;
     height: 213px; }
+
+.bottom_head {
+  height: 63px;
+  background-color: white;
+  padding: 25px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #303030;
+  font-family: Exo2;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block; }
+
+.footer {
+  min-height: 93px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #272727; }
+
+.footer_contacts > div {
+  padding-left: 82px;
+  height: 48px;
+  color: #f0f0f0;
+  font-family: PTSans;
+  font-size: 14px;
+  line-height: 1.2; }
+  .footer_contacts > div a {
+    color: #f0f0f0;
+    font-family: PTSans;
+    font-size: 14px; }
+
+.footer_adress {
+  padding-top: 6px;
+  background: url("../img/footer_adress.png") no-repeat 0 0; }
+
+.footer_phone {
+  background: url("../img/footer_phone.png") no-repeat 0 0;
+  padding-top: 15px; }
+
+.footer_mail {
+  background: url("../img/footer_mail.png") no-repeat 0 0;
+  padding-top: 15px; }
+
+.social {
+  margin-top: 30px; }
+  .social a {
+    display: block;
+    width: 64px;
+    height: 64px;
+    background-color: #2299ee;
+    float: left;
+    margin-right: 1px;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .social a:hover {
+      background-color: #2090df; }
+
+.vk {
+  background-image: url("../img/vk.png"); }
+
+.fb {
+  background-image: url("../img/fb.png"); }
+
+.goo {
+  background-image: url("../img/goo.png"); }
+
+.twit {
+  background-image: url("../img/twit.png"); }
+
+.copy {
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PTSans;
+  margin-top: 40px;
+  padding: 0 15px; }
+  .copy span {
+    font-family: MinionPro; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
