@@ -65,6 +65,7 @@ ul
 	margin: auto
 	overflow: hidden
 	background-color: #F0F0F0 
+	position: relative
 
 .w_1200
 	margin: auto
@@ -157,7 +158,7 @@ ul
 	display: block
 	position: relative
 	width: 370px
-	>div
+	> div
 		position: absolute
 		top: 197px
 		left: 0
@@ -328,6 +329,7 @@ input.block
 		padding: 0 17px  
 		box-sizing: border-box
 		margin-right: 30px
+		float: left
 	input[type=submit]
 		width: 270px
 		height: 48px
@@ -418,7 +420,7 @@ input.block
 		font-size: 14px
 		line-height: 24px
 
-.w_1200.our_services
+.our_services
 	background-color: #F0F0F0
 	padding-bottom: 65px
 	overflow: hidden
@@ -490,7 +492,46 @@ input.block
 		@extend .two_words_about_us_like_h2
 
 .last_art_text
-	>	div
-		 
+	padding-top: 40px
+	h3
+		a
+			span
+				display: block
+				color: rgb(160, 160, 160)
+				font-family: PTSans
+				font-size: 14px
+				text-transform: none
+				margin-top: 12px
+
+.arrow_top
+	display: block
+	position: absolute
+	right: 20px
+	bottom: 405px
+	background: url("../img/arrow_top.png") no-repeat 0 0
+	height: 48px
+	width: 48px
+
+.bottom
+	background-color: #303030 
+	overflow: hidden
+	width: 100%
+
+.logo2
+	width: 271px
+	height: 213px
+	> div
+			font-size: 21px
+			top: 147px
+			span
+				font-size: 10px
+	img
+		width: 271px
+		height: 213px
+
+
+
+
+
 
 @import _media

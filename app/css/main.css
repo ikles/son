@@ -147,7 +147,8 @@ ul {
   max-width: 1920px;
   margin: auto;
   overflow: hidden;
-  background-color: #F0F0F0; }
+  background-color: #F0F0F0;
+  position: relative; }
 
 .w_1200 {
   margin: auto;
@@ -416,7 +417,8 @@ input.block {
   padding: 0 17px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-right: 30px; }
+  margin-right: 30px;
+  float: left; }
 
 .order_consalt_form input[type=submit] {
   width: 270px;
@@ -510,16 +512,16 @@ input.block {
     font-size: 14px;
     line-height: 24px; }
 
-.w_1200.our_services {
+.our_services {
   background-color: #F0F0F0;
   padding-bottom: 65px;
   overflow: hidden; }
-  .w_1200.our_services p {
+  .our_services p {
     color: #303030;
     font-family: PTSans;
     font-size: 14px;
     line-height: 16px; }
-  .w_1200.our_services > div .img_a {
+  .our_services > div .img_a {
     display: block;
     font-size: 0;
     width: 270px;
@@ -527,7 +529,7 @@ input.block {
     overflow: hidden;
     position: relative;
     margin-bottom: 18px; }
-    .w_1200.our_services > div .img_a:after {
+    .our_services > div .img_a:after {
       display: none;
       position: absolute;
       top: 0;
@@ -536,11 +538,11 @@ input.block {
       content: "";
       width: 270px;
       height: 192px; }
-    .w_1200.our_services > div .img_a:hover:after {
+    .our_services > div .img_a:hover:after {
       display: block; }
-    .w_1200.our_services > div .img_a:hover:before {
+    .our_services > div .img_a:hover:before {
       background-color: #303030; }
-    .w_1200.our_services > div .img_a:before {
+    .our_services > div .img_a:before {
       display: block;
       position: absolute;
       width: 40px;
@@ -550,7 +552,7 @@ input.block {
       bottom: 16px;
       z-index: 10;
       background: #2299ee url("../img/arrow_min.png") no-repeat center center; }
-  .w_1200.our_services h3 a {
+  .our_services h3 a {
     color: #303030;
     font-family: Exo2SB;
     font-size: 20px;
@@ -559,9 +561,9 @@ input.block {
     display: block;
     position: relative;
     margin-bottom: 16px; }
-    .w_1200.our_services h3 a:hover {
+    .our_services h3 a:hover {
       text-decoration: none; }
-    .w_1200.our_services h3 a:after {
+    .our_services h3 a:after {
       display: block;
       position: absolute;
       bottom: 0;
@@ -574,6 +576,42 @@ input.block {
 
 .order_consalt2 {
   margin-top: 0; }
+
+.last_art_text {
+  padding-top: 40px; }
+  .last_art_text h3 a span {
+    display: block;
+    color: #a0a0a0;
+    font-family: PTSans;
+    font-size: 14px;
+    text-transform: none;
+    margin-top: 12px; }
+
+.arrow_top {
+  display: block;
+  position: absolute;
+  right: 20px;
+  bottom: 405px;
+  background: url("../img/arrow_top.png") no-repeat 0 0;
+  height: 48px;
+  width: 48px; }
+
+.bottom {
+  background-color: #303030;
+  overflow: hidden;
+  width: 100%; }
+
+.logo2 {
+  width: 271px;
+  height: 213px; }
+  .logo2 > div {
+    font-size: 21px;
+    top: 147px; }
+    .logo2 > div span {
+      font-size: 10px; }
+  .logo2 img {
+    width: 271px;
+    height: 213px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
