@@ -141,7 +141,9 @@ ul {
 .wrapper {
   width: 100%;
   max-width: 1920px;
-  margin: auto; }
+  margin: auto;
+  overflow: hidden;
+  background-color: #F0F0F0; }
 
 .w_1200 {
   margin: auto;
@@ -153,8 +155,6 @@ ul {
   position: relative; }
   .slider li {
     font-size: 0; }
-  .slider img {
-    width: 100%; }
   .slider .slider_text {
     background-color: rgba(34, 153, 238, 0.75);
     width: 50%;
@@ -338,20 +338,62 @@ input.block {
   background-color: #2090df; }
 
 .w_1200.blocks {
-  margin-top: -118px; }
-  .w_1200.blocks div {
+  margin-top: -118px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 15px; }
+  .w_1200.blocks > div {
     background-repeat: no-repeat;
-    background-position: center 76px;
-    height: 295px; }
-    .w_1200.blocks div:first-child {
+    height: 295px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .w_1200.blocks > div:first-child {
       background-color: #fff;
-      background-image: url("../img/block1_h.png"); }
-    .w_1200.blocks div:nth-child(2) {
-      background-color: #24a1fb; }
-    .w_1200.blocks div:nth-child(3) {
-      background-color: #2299ee; }
-    .w_1200.blocks div:nth-child(4) {
-      background-color: #2090df; }
+      background-image: url("../img/block1_h.png");
+      background-position: center 70px; }
+      .w_1200.blocks > div:first-child .like_h3 {
+        color: #303030; }
+      .w_1200.blocks > div:first-child p {
+        color: #303030; }
+    .w_1200.blocks > div:nth-child(2) {
+      background-color: #24a1fb;
+      background-image: url("../img/block2.png");
+      background-position: center 70px; }
+    .w_1200.blocks > div:nth-child(3) {
+      background-color: #2299ee;
+      background-image: url("../img/block3.png");
+      background-position: center 57px; }
+    .w_1200.blocks > div:nth-child(4) {
+      background-color: #2090df;
+      background-image: url("../img/block4.png");
+      background-position: center 59px; }
+    .w_1200.blocks > div .like_h3 {
+      color: #fff;
+      font-family: Exo2;
+      font-size: 24px;
+      text-transform: uppercase;
+      margin-bottom: 25px; }
+
+.blocks_text {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  padding: 0 25px; }
+  .blocks_text p {
+    color: #fff;
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px; }
+
+.order_consalt {
+  width: 100%;
+  height: 112px;
+  background-color: #464a4d;
+  margin-top: 45px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
