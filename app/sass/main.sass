@@ -71,10 +71,134 @@ ul
 .slider
 	width: 100%
 	margin: auto
+	position: relative
+	li
+		font-size: 0
+	img
+		width: 100%
+	.slider_text	
+		background-color: rgba(34, 153, 238,0.75)
+		width: 50%
+		position: absolute
+		right: 0
+		top: 0
+		height: 100%
+		box-sizing: border-box
+
+.slider_text_inner
+	width: 600px
+	margin-top: 270px
+	text-align: right
+	padding-right: 15px
+	padding-left: 55px
+	box-sizing: border-box
+	.like_h2
+		color: white
+		font-family: Exo2
+		font-size: 45px
+		text-transform: uppercase
+		margin-bottom: 45px
+		span		
+			margin-top: 35px
+			display: block
+			color: rgb(250, 250, 250)
+			font-family: Exo2L
+			font-size: 21px
+			text-transform: uppercase
+	p
+		text-shadow: 0 0 2px rgba(0, 0, 0, 0.4)
+		color: rgb(250, 250, 250)
+		font-family: PTSans
+		font-size: 16px
+		line-height: 24px
+
+.read_mor
+	display: block
+	float: right
+	font-family: Exo2EL
+	font-size: 14px  
+	color: rgb(250, 250, 250)
+	text-transform: uppercase
+	margin-top: 43px
+	height: 40px
+	line-height: 2.8
+	box-sizing: border-box
+	padding: 0 20px
+	background: rgb(48, 48, 48) url("../img/arrow_more.png") no-repeat right top
+	padding-right: 60px
+	
+	
+
+.logo
+	display: block
+	position: relative
+	width: 370px
+	>div
+		position: absolute
+		top: 197px
+		left: 0
+		width: 100%
+		text-align: center
+		color: white
+		font-family: Corki
+		font-size: 31px
+		text-transform: uppercase
+		span 
+			margin-top: 5px
+			display: block
+			color: white
+			font-family: Eurofurenceregular
+			font-size: 14px
+			font-weight: 400
+			text-transform: uppercase
+		
+.top
+	position: absolute
+	width: 100%
+	top: 0
+	left: 0
+
+.col-logo
+	width: 370px 
+
+.col-logo-mnu
+	margin-top: 30px
 
 .col-mnu  
-	margin-top: 27px
 	box-sizing: border-box
+	background-color: #303030
+	width: 800px 
+	height: 97px
+
+.top_mnu.main-mnu
+	height: 97px
+	float: left
+
+.mnu-search-wrap 
+	float: right
+	height: 97px
+
+.search
+	height: 97px
+	width: 97px
+	overflow: hidden
+	float: right
+	background-color: #464A4D
+	position: relative
+	input
+		display: none
+		
+input.block
+	display: block
+	position: absolute
+	z-index: 10 
+
+.glass 
+	position: absolute
+	background: url("../img/glass.png") no-repeat center center
+	width: 97px
+	height: 97px
+	cursor: pointer
 
 .top_mnu
 	position: relative
@@ -85,22 +209,43 @@ ul
 	li 
 		float: left
 		list-style: none
-		line-height: 1
-		margin-right: 52px
+		line-height: 1		
+		color: white
+		font-family: Exo2EL
+		font-size: 16px
+		text-transform: uppercase
 		&:first-child 
 			margin-left: 0
 		&:last-child 
 			margin-right: 0	
 	a 		
-		color: #000
+		height: 97px
 		display: block
-		font-family: OpenSansSB
-		font-size: 15px
-		line-height: 1
-		box-sizing: border-box
-		text-align: center
+		padding: 0 20px
+		color: #FFF 
+		line-height: 6.1
 		&:hover
-			
+			text-decoration: none
+			background-color: rgb(70, 74, 77)
+
+.active
+	a
+		background-color: rgb(32, 144, 223)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @import _media

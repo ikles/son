@@ -6,5 +6,13 @@ $(function() {
 		return false;
 	});
 	
+	$('.glass').click(function() {
+		if (!$('.search input').hasClass('block')) {
+			$('.search input').addClass('block');
+		}
+		else {
+			$('.search input').removeClass('block');
+		}
+	});
 
 });

@@ -106,88 +106,28 @@ ul {
   margin: 0; }
 
 @font-face {
-  font-family: MuseoSansCyrl900I;
-  src: url(../fonts/MuseoSansCyrl_900_Italic.otf); }
+  font-family: Corki;
+  src: url(../fonts/corkituscan.ttf); }
 
 @font-face {
-  font-family: MuseoSansCyrl900;
-  src: url(../fonts/MuseoSansCyrl_900.otf); }
+  font-family: Eurofurenceregular;
+  src: url(../fonts/eurof55.ttf); }
 
 @font-face {
-  font-family: MuseoSansCyrl700;
-  src: url(../fonts/MuseoSansCyrl_700.otf); }
+  font-family: Exo2EL;
+  src: url(../fonts/exo2extralight.ttf); }
 
 @font-face {
-  font-family: MuseoSansCyrl500;
-  src: url(../fonts/MuseoSansCyrl_500.otf); }
+  font-family: Exo2;
+  src: url(../fonts/exo2RegCond.otf); }
 
 @font-face {
-  font-family: MuseoSansCyrl300;
-  src: url(../fonts/MuseoSansCyrl_300.otf); }
+  font-family: Exo2L;
+  src: url(../fonts/exo2LightCond.otf); }
 
 @font-face {
-  font-family: MuseoSansCyrl700I;
-  src: url(../fonts/MuseoSansCyrl_700_Italic.otf); }
-
-@font-face {
-  font-family: MuseoSansCyrl300I;
-  src: url(../fonts/MuseoSansCyrl_300_Italic.otf); }
-
-@font-face {
-  font-family: RobotoM;
-  src: url(../fonts/roboto-medium.ttf); }
-
-@font-face {
-  font-family: Roboto;
-  src: url(../fonts/roboto-regular.ttf); }
-
-@font-face {
-  font-family: RobotoB;
-  src: url(../fonts/roboto-bold.ttf); }
-
-@font-face {
-  font-family: RobotoBL;
-  src: url(../fonts/roboto-black.ttf); }
-
-@font-face {
-  font-family: RobotoMI;
-  src: url(../fonts/roboto-medium-italic.ttf); }
-
-@font-face {
-  font-family: "Trebuchet MS";
-  src: url(../fonts/Trebuchet_MS.ttf); }
-
-@font-face {
-  font-family: "Trebuchet MSI";
-  src: url(../fonts/trebucbi.ttf); }
-
-@font-face {
-  font-family: "Trebuchet MSB";
-  src: url(../fonts/Trebuchet_MS_b.ttf); }
-
-@font-face {
-  font-family: OpenSans;
-  src: url(../fonts/OpenSans-Regular.ttf); }
-
-@font-face {
-  font-family: OpenSansI;
-  src: url(../fonts/OpenSans-Italic.ttf); }
-
-@font-face {
-  font-family: OpenSansSB;
-  src: url(../fonts/OpenSans-Semibold.ttf); }
-
-@font-face {
-  font-family: OpenSansB;
-  src: url(../fonts/OpenSans-Bold.ttf); }
-
-@font-face {
-  font-family: UniSansHeavyCAPS;
-  src: url(../fonts/Uni_Sans_Heavy.otf); }
-
-@font-face {
-  font-family: UniSansThinCAPS;
-  src: url(../fonts/Uni_Sans_Thin.otf); }
+  font-family: PTSans;
+  src: url(../fonts/ptsans.ttf); }
 
 .nopadding {
   padding: 0 !important; }
@@ -209,12 +149,137 @@ ul {
 
 .slider {
   width: 100%;
-  margin: auto; }
+  margin: auto;
+  position: relative; }
+  .slider li {
+    font-size: 0; }
+  .slider img {
+    width: 100%; }
+  .slider .slider_text {
+    background-color: rgba(34, 153, 238, 0.75);
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
 
-.col-mnu {
-  margin-top: 27px;
+.slider_text_inner {
+  width: 600px;
+  margin-top: 270px;
+  text-align: right;
+  padding-right: 15px;
+  padding-left: 55px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+  .slider_text_inner .like_h2 {
+    color: white;
+    font-family: Exo2;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 45px; }
+    .slider_text_inner .like_h2 span {
+      margin-top: 35px;
+      display: block;
+      color: #fafafa;
+      font-family: Exo2L;
+      font-size: 21px;
+      text-transform: uppercase; }
+  .slider_text_inner p {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+    color: #fafafa;
+    font-family: PTSans;
+    font-size: 16px;
+    line-height: 24px; }
+
+.read_mor {
+  display: block;
+  float: right;
+  font-family: Exo2EL;
+  font-size: 14px;
+  color: #fafafa;
+  text-transform: uppercase;
+  margin-top: 43px;
+  height: 40px;
+  line-height: 2.8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
+  background: #303030 url("../img/arrow_more.png") no-repeat right top;
+  padding-right: 60px; }
+
+.logo {
+  display: block;
+  position: relative;
+  width: 370px; }
+  .logo > div {
+    position: absolute;
+    top: 197px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Corki;
+    font-size: 31px;
+    text-transform: uppercase; }
+    .logo > div span {
+      margin-top: 5px;
+      display: block;
+      color: white;
+      font-family: Eurofurenceregular;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase; }
+
+.top {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0; }
+
+.col-logo {
+  width: 370px; }
+
+.col-logo-mnu {
+  margin-top: 30px; }
+
+.col-mnu {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #303030;
+  width: 800px;
+  height: 97px; }
+
+.top_mnu.main-mnu {
+  height: 97px;
+  float: left; }
+
+.mnu-search-wrap {
+  float: right;
+  height: 97px; }
+
+.search {
+  height: 97px;
+  width: 97px;
+  overflow: hidden;
+  float: right;
+  background-color: #464A4D;
+  position: relative; }
+  .search input {
+    display: none; }
+
+input.block {
+  display: block;
+  position: absolute;
+  z-index: 10; }
+
+.glass {
+  position: absolute;
+  background: url("../img/glass.png") no-repeat center center;
+  width: 97px;
+  height: 97px;
+  cursor: pointer; }
 
 .top_mnu {
   position: relative;
@@ -226,20 +291,26 @@ ul {
     float: left;
     list-style: none;
     line-height: 1;
-    margin-right: 52px; }
+    color: white;
+    font-family: Exo2EL;
+    font-size: 16px;
+    text-transform: uppercase; }
     .top_mnu li:first-child {
       margin-left: 0; }
     .top_mnu li:last-child {
       margin-right: 0; }
   .top_mnu a {
-    color: #000;
+    height: 97px;
     display: block;
-    font-family: OpenSansSB;
-    font-size: 15px;
-    line-height: 1;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    text-align: center; }
+    padding: 0 20px;
+    color: #FFF;
+    line-height: 6.1; }
+    .top_mnu a:hover {
+      text-decoration: none;
+      background-color: #464a4d; }
+
+.active a {
+  background-color: #2090df; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
