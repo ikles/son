@@ -208,6 +208,31 @@ ul {
   padding: 0 20px;
   background: #303030 url("../img/arrow_more.png") no-repeat right top;
   padding-right: 60px; }
+  .read_mor:hover, .read_mor:focus {
+    text-decoration: none;
+    color: #FFF; }
+
+.arrows_wrap {
+  width: 100%;
+  position: absolute;
+  bottom: 140px;
+  left: 0; }
+  .arrows_wrap a {
+    display: block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: 0 0; }
+
+.w_1200.arrows {
+  padding-left: 15px; }
+
+.arrow_l {
+  background-image: url("../img/arrow_l.png"); }
+
+.arrow_r {
+  background-image: url("../img/arrow_r.png"); }
 
 .logo {
   display: block;
@@ -311,6 +336,22 @@ input.block {
 
 .active a {
   background-color: #2090df; }
+
+.w_1200.blocks {
+  margin-top: -118px; }
+  .w_1200.blocks div {
+    background-repeat: no-repeat;
+    background-position: center 76px;
+    height: 295px; }
+    .w_1200.blocks div:first-child {
+      background-color: #fff;
+      background-image: url("../img/block1_h.png"); }
+    .w_1200.blocks div:nth-child(2) {
+      background-color: #24a1fb; }
+    .w_1200.blocks div:nth-child(3) {
+      background-color: #2299ee; }
+    .w_1200.blocks div:nth-child(4) {
+      background-color: #2090df; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */

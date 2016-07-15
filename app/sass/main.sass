@@ -126,8 +126,31 @@ ul
 	padding: 0 20px
 	background: rgb(48, 48, 48) url("../img/arrow_more.png") no-repeat right top
 	padding-right: 60px
-	
-	
+	&:hover, &:focus
+		text-decoration: none
+		color: #FFF 
+
+.arrows_wrap
+	width: 100%
+	position: absolute
+	bottom: 140px
+	left: 0	
+	a
+		display: block
+		float: left
+		width: 48px
+		height: 48px
+		background-repeat: no-repeat
+		background-position: 0 0 
+
+.w_1200.arrows
+	padding-left: 15px
+
+.arrow_l
+	background-image: url('../img/arrow_l.png') 
+
+.arrow_r
+	background-image: url('../img/arrow_r.png') 
 
 .logo
 	display: block
@@ -232,9 +255,21 @@ input.block
 	a
 		background-color: rgb(32, 144, 223)
 
-
-
-
+.w_1200.blocks
+	margin-top: -118px
+	div
+		background-repeat: no-repeat 
+		background-position: center 76px  
+		height: 295px
+		&:first-child
+			background-color: #fff
+			background-image: url('../img/block1_h.png') 
+		&:nth-child(2)
+			background-color: rgb(36, 161, 251)
+		&:nth-child(3)
+			background-color: rgb(34, 153, 238)
+		&:nth-child(4)
+			background-color: rgb(32, 144, 223)
 
 
 
