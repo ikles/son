@@ -7,11 +7,11 @@ $(function() {
 	});
 	
 	$('.glass').click(function() {
-		if (!$('.search input').hasClass('block')) {
-			$('.search input').addClass('block');
+		if (!$('.search form').hasClass('block')) {
+			$('.search form').addClass('block');
 		}
 		else {
-			$('.search input').removeClass('block');
+			$('.search form').removeClass('block');
 		}
 	});
 

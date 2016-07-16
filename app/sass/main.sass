@@ -252,17 +252,42 @@ ul
 .search
 	height: 97px
 	width: 97px
-	overflow: hidden
+	//overflow: hidden
 	float: right
 	background-color: #464A4D
 	position: relative
-	input
+	form
 		display: none
+		width: 180px
+		position: absolute
+		z-index: 10 
+		bottom: -36px
+		right: 0
+		input
+			background-color: #fff
+			border: medium none
+			box-sizing: border-box
+			color: #000
+			font-family: PTSans
+			font-size: 14px
+			height: 26px
+			margin-bottom: 10px
+			padding: 0 25px
+			width: 150px
+			border: none
+			float: left
+			box-sizing: border-box
+			border: 1px solid #ccc
+		input[type=submit]
+			width: 30px
+			box-sizing: border-box
+			padding: 0
+			border: none
+			background: #000 url("../img/glass.png") no-repeat scroll center center
+			background-size:  40%
 		
-input.block
+form.block
 	display: block
-	position: absolute
-	z-index: 10 
 
 .glass 
 	position: absolute
@@ -408,6 +433,27 @@ h2
 			padding-right: 127px
 			box-sizing: border-box
 			background: url("../img/line_order.png") no-repeat right 0 top 12px
+		input
+			width: 370px
+			height: 56px
+			background-color: rgb(240, 240, 240)
+			box-sizing: border-box
+			border: none
+			margin-bottom: 10px
+			padding: 0 25px
+			color: #000
+			font-family: PTSans
+			font-size: 14px			
+		input[type=submit]
+			box-sizing: border-box					
+			text-align: center
+			width: 370px
+			height: 56px
+			background-color: rgb(34, 153, 238)
+			color: white
+			font-family: Exo2L
+			font-size: 16px
+			text-transform: uppercase
 
 .col-content
 	padding-bottom: 50px
@@ -651,26 +697,40 @@ h2
 	width: 100%
 	min-height: 310px
 	.w_1200	
-		overflow: hidden
-	ul
-		width: 170px
-		padding: 10px 0
-		overflow: hidden
-		box-sizing: border-box
-		background-color: rgb(70, 74, 77)
-		a
-			display: block
-			width: 100%
-			height: 30px
-			width: 100%
-			font-family: PTSans
-			color: rgb(240, 240, 240)
-			font-size: 14px
-			padding: 7px 18px
+		//overflow: hidden
+		min-height: 240px
+	.bot-mnu
+		ul
+			width: 170px
+			padding: 10px 0
+			//overflow: hidden
 			box-sizing: border-box
-			&:hover
-				text-decoration: none
-				background-color: rgb(84, 88, 91)
+			background-color: rgb(70, 74, 77)
+			a
+				display: block
+				width: 100%
+				height: 30px
+				width: 100%
+				font-family: PTSans
+				color: rgb(240, 240, 240)
+				font-size: 14px
+				padding: 7px 18px
+				box-sizing: border-box
+				&:hover
+					text-decoration: none
+					background-color: rgb(84, 88, 91)
+			li
+				position: relative
+				&:hover
+					ul
+						display: block
+			ul
+				display: none
+				position: absolute
+				right: -170px
+				top: 0px
+				a
+					font-size: 13px
 
 .logo2
 	width: 271px
