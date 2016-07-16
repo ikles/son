@@ -237,6 +237,18 @@ ul
 	float: right
 	height: 97px
 
+.categ
+	float: right
+	width: 900px
+	background-color: #2090DF 
+	height: 83px
+	padding: 26px 20px
+	box-sizing: border-box
+	font-family: Exo2
+	font-size: 32px
+	color: #FFF  
+	text-transform: uppercase
+
 .search
 	height: 97px
 	width: 97px
@@ -331,6 +343,85 @@ input.block
 			font-size: 24px
 			text-transform: uppercase
 			margin-bottom: 25px
+
+.w_1200.main
+	overflow: hidden
+	padding-top: 50px
+
+h1
+	font-family: Exo2L
+	font-size: 42px
+	color: rgb(48, 48, 48) 
+	text-transform: uppercase
+	padding-bottom: 20px
+	margin-bottom: 20px
+	display: block
+	position: relative
+	&:after
+		display: block
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		height: 3px
+		content: "" 
+		background-color: rgb(227, 227, 227)
+		border-left: 42px solid rgb(70, 74, 77)
+
+h2
+	color: rgb(48, 48, 48)
+	font-family: Exo2
+	font-size: 30px
+	text-transform: uppercase
+	display: block
+	position: relative
+	margin-bottom: 20px
+	padding-bottom: 15px
+	line-height: 1
+	&:after
+		display: block
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		height: 3px
+		content: "" 
+		background-color: rgb(227, 227, 227)
+		border-left: 42px solid rgb(70, 74, 77)
+
+.left-consult
+	.order_consalt
+		background-color: #FFF 
+		.like_h3
+			color: rgb(48, 48, 48)
+			font-family: Exo2L
+			font-size: 24px
+			text-transform: uppercase
+		p
+			color: rgb(48, 48, 48)
+			font-family: PTSans
+			font-size: 14px
+			margin-bottom: 30px
+		.order_consalt_text
+			width: 370px
+			text-align: left
+			padding-right: 127px
+			box-sizing: border-box
+			background: url("../img/line_order.png") no-repeat right 0 top 12px
+
+.col-content
+	padding-bottom: 50px
+	font-family: PTSans
+	font-size: 16px 
+	line-height: 1.4
+	color: rgb(48, 48, 48)
+	p
+		margin-bottom: 10px
+		&:last-child
+			margin-bottom: 0
+	a
+		color: rgb(34, 153, 238)
+		text-decoration: underline
 
 .blocks_text
 	position: absolute
@@ -452,6 +543,9 @@ input.block
 		font-family: Exo2L
 		font-size: 32px
 		text-transform: uppercase
+		margin-bottom: 0
+		&:after
+			display: none
 	p
 		color: white
 		font-family: PTSans
