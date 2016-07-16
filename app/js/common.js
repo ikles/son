@@ -15,4 +15,12 @@ $(function() {
 		}
 	});
 
+	$('.top_mnu ul ul').mouseover(function(){
+		$(this).prev().addClass('hover_a');
+	});
+
+	$('.top_mnu ul ul').mouseout(function(){
+		$(this).prev().removeClass('hover_a');
+	});
+
 });

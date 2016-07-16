@@ -188,7 +188,8 @@ ul {
 .slider {
   width: 100%;
   margin: auto;
-  position: relative; }
+  position: relative;
+  min-height: 246px; }
   .slider li {
     font-size: 0; }
   .slider .slider_text {
@@ -299,8 +300,15 @@ ul {
   top: 0;
   left: 0; }
 
+.top.top2 {
+  background-color: #f0f0f0;
+  height: 210px; }
+
 .col-logo {
   width: 370px; }
+
+.col-logo2 {
+  width: 270px; }
 
 .col-logo-mnu {
   margin-top: 30px; }
@@ -312,9 +320,30 @@ ul {
   width: 800px;
   height: 97px; }
 
+.col-mnu2 {
+  width: 900px; }
+
 .top_mnu.main-mnu {
   height: 97px;
   float: left; }
+  .top_mnu.main-mnu ul ul {
+    display: none;
+    width: 186px;
+    background-color: #464a4d;
+    position: absolute;
+    padding: 20px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .top_mnu.main-mnu ul ul a {
+      line-height: 1.2;
+      height: auto;
+      padding: 10px 0;
+      font-family: Exo2L;
+      font-size: 15px; }
+      .top_mnu.main-mnu ul ul a:hover {
+        text-decoration: underline; }
+  .top_mnu.main-mnu ul > li:hover ul {
+    display: block; }
 
 .mnu-search-wrap {
   float: right;
@@ -369,6 +398,10 @@ input.block {
     .top_mnu a:hover {
       text-decoration: none;
       background-color: #464a4d; }
+
+.hover_a {
+  text-decoration: none;
+  background-color: #464a4d; }
 
 .active a {
   background-color: #2090df; }
