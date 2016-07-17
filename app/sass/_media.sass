@@ -38,15 +38,56 @@
 					
 		a:hover, li.active a 
 			border: none
-			border-radius: 0
-			
-	.col-mnu 
-		float: right !important
-		margin-top: 15px
+			border-radius: 0			
 	
 	.top_mnu li:last-child 
 		margin-right: 0
+		
+	.logo
+		width: 170px
+		height: 86px
+		min-height: auto
+		box-sizing: border-box
+		padding: 10px
+		position: relative
+		img
+			width: 55px
+			float: left
+			margin-top: 6px
+			position: relative
+		> div
+				border-top: 0
+				float: left
+				margin-left: 8px
+				font-size: 15px
+				width: 85px
+				text-align: left
+				padding-top: 0
+				line-height: 1.1	
+				span
+					font-size: 9px
+					position: absolute
+					bottom: 9px
+					left: 10px
+				&:before					
+					float: left
+					content: "" 
+					display: block
+					width: 2px
+					background-color: rgb(34, 153, 238)
+					height: 44px
+					margin-right: 9px
+					margin-top: 3px
 									
+	.col-logo-mnu
+		margin-top: 0
+		background-color: #303030
+		padding: 0 !important
+	
+	.col-mnu
+		background-color: transparent 
+		height: 86px
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) 
 	/**/

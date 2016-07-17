@@ -279,7 +279,8 @@ ul {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 40px 30px 40px 30px;
-  font-size: 0; }
+  font-size: 0;
+  z-index: 10; }
   .logo > div {
     padding-top: 8px;
     border-top: 2px solid #2989CE;
@@ -308,9 +309,6 @@ ul {
   background-color: #f0f0f0;
   height: 210px; }
 
-.col-logo {
-  width: 370px; }
-
 .col-logo2 {
   width: 270px; }
 
@@ -321,7 +319,6 @@ ul {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #303030;
-  width: 800px;
   height: 97px; }
 
 .col-mnu2 {
@@ -999,11 +996,51 @@ h2 {
       border: none;
       -webkit-border-radius: 0;
               border-radius: 0; }
-  .col-mnu {
-    float: right !important;
-    margin-top: 15px; }
   .top_mnu li:last-child {
-    margin-right: 0; } }
+    margin-right: 0; }
+  .logo {
+    width: 170px;
+    height: 86px;
+    min-height: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    position: relative; }
+    .logo img {
+      width: 55px;
+      float: left;
+      margin-top: 6px;
+      position: relative; }
+    .logo > div {
+      border-top: 0;
+      float: left;
+      margin-left: 8px;
+      font-size: 15px;
+      width: 85px;
+      text-align: left;
+      padding-top: 0;
+      line-height: 1.1; }
+      .logo > div span {
+        font-size: 9px;
+        position: absolute;
+        bottom: 9px;
+        left: 10px; }
+      .logo > div:before {
+        float: left;
+        content: "";
+        display: block;
+        width: 2px;
+        background-color: #2299ee;
+        height: 44px;
+        margin-right: 9px;
+        margin-top: 3px; }
+  .col-logo-mnu {
+    margin-top: 0;
+    background-color: #303030;
+    padding: 0 !important; }
+  .col-mnu {
+    background-color: transparent;
+    height: 86px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
