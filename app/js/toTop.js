@@ -1,18 +1,3 @@
-/**
- * Кнопка наверх на jQuery. 
- * Автор: Тимур Камаев, wp-kama.ru
- * 
- * Стили:
-.scrollTop{
-	background:url('ссылка_на_картинку') 0 0 no-repeat;
-	width:50px;
-	height:50px;
-	bottom:10px;
-	left:48%;
-}
-.scrollTop:hover{ background-position:0 -58px; }
- *
- */
 jQuery( document ).ready(function($){
 	var 
 	speed = 100,

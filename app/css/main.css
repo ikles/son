@@ -20,10 +20,10 @@
   content: "";
   position: absolute;
   left: 0;
-  top: -9px; }
+  top: -11px; }
 
 .toggle-mnu span:after {
-  top: 9px; }
+  top: 11px; }
 
 .toggle-mnu span {
   position: relative;
@@ -32,15 +32,13 @@
 .toggle-mnu span,
 .toggle-mnu span:after,
 .toggle-mnu span:before {
-  width: 100%;
-  height: 2px;
-  background-color: #000;
+  width: 35px;
+  height: 4px;
+  background-color: #fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-border-radius: 2px;
-          border-radius: 2px; }
+          backface-visibility: hidden; }
 
 .toggle-mnu.on span {
   background-color: transparent; }
@@ -51,9 +49,9 @@
           transform: rotate(45deg) translate(5px, 5px); }
 
 .toggle-mnu.on span:after {
-  -webkit-transform: rotate(-45deg) translate(7px, -8px);
-      -ms-transform: rotate(-45deg) translate(7px, -8px);
-          transform: rotate(-45deg) translate(7px, -8px); }
+  -webkit-transform: rotate(-45deg) translate(10px, -10px);
+      -ms-transform: rotate(-45deg) translate(10px, -10px);
+          transform: rotate(-45deg) translate(10px, -10px); }
 
 .toggle-mnu.on + #menu {
   opacity: 1;
@@ -274,11 +272,17 @@ ul {
 .logo {
   display: block;
   position: relative;
-  width: 370px; }
+  width: 370px;
+  text-align: center;
+  background-color: #464A4D;
+  min-height: 290px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px 30px 40px 30px;
+  font-size: 0; }
   .logo > div {
-    position: absolute;
-    top: 197px;
-    left: 0;
+    padding-top: 8px;
+    border-top: 2px solid #2989CE;
     width: 100%;
     text-align: center;
     color: white;
@@ -687,7 +691,11 @@ h2 {
     font-size: 30px;
     line-height: 48px;
     text-transform: uppercase;
-    margin-bottom: 22px; }
+    margin-bottom: 22px;
+    padding-bottom: 0;
+    line-height: 1; }
+    .about_us_text h2:after {
+      display: none; }
 
 .about_us_heading {
   padding-right: 40px;
@@ -852,15 +860,17 @@ h2 {
 
 .logo2 {
   width: 271px;
-  height: 213px; }
+  min-height: 213px;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px 20px; }
   .logo2 > div {
     font-size: 21px;
     top: 147px; }
     .logo2 > div span {
       font-size: 10px; }
   .logo2 img {
-    width: 271px;
-    height: 213px; }
+    width: 155px; }
 
 .bottom_head {
   height: 63px;
@@ -951,6 +961,8 @@ h2 {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  .search {
+    display: none; }
   .main-mnu {
     display: none;
     float: right;

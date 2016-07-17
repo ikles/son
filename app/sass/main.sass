@@ -160,10 +160,15 @@ ul
 	display: block
 	position: relative
 	width: 370px
+	text-align: center
+	background-color: #464A4D 
+	min-height: 290px
+	box-sizing: border-box
+	padding: 40px 30px 40px 30px
+	font-size: 0
 	> div
-		position: absolute
-		top: 197px
-		left: 0
+		padding-top: 8px
+		border-top: 2px solid #2989CE 
 		width: 100%
 		text-align: center
 		color: white
@@ -566,6 +571,10 @@ h2
 		line-height: 48px
 		text-transform: uppercase
 		margin-bottom: 22px
+		padding-bottom: 0
+		line-height: 1
+		&:after
+			display: none
 
 .about_us_heading
 	padding-right: 40px
@@ -739,15 +748,17 @@ h2
 
 .logo2
 	width: 271px
-	height: 213px
+	min-height: 213px
+	overflow: hidden
+	text-align: center
+	padding: 30px 20px
 	> div
 			font-size: 21px
 			top: 147px
 			span
 				font-size: 10px
 	img
-		width: 271px
-		height: 213px
+		width: 155px
 
 .bottom_head
 	height: 63px
