@@ -849,7 +849,8 @@ h2 {
       display: none;
       position: absolute;
       right: -170px;
-      top: 0px; }
+      top: 0px;
+      z-index: 10; }
       .bottom .bot-mnu ul ul a {
         font-size: 13px; }
 
@@ -1211,10 +1212,22 @@ h2 {
     padding-top: 10px; }
     .logo2 > div:before {
       display: none; }
+    .logo2 > div span {
+      position: static; }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  .img_a > img {
+    width: 100%;
+    height: auto; }
+  .our_services {
+    padding-bottom: 25px; }
+    .our_services div div {
+      margin-bottom: 20px; }
+  .logo2 {
+    width: 220px; }
+    .logo2 > div {
+      font-size: 18px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
