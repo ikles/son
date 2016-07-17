@@ -2,6 +2,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)  		
+	.w_1200
+		width: calc(100% - 20px)
+
 	.search
 		display: none
 
@@ -79,14 +82,26 @@
 					margin-right: 9px
 					margin-top: 3px
 									
-	.col-logo-mnu
-		margin-top: 0
+	.top
 		background-color: #303030
+		.w_1200
+			width: 100%
+
+	.col-logo-mnu
+		margin-top: 0		
 		padding: 0 !important
 	
 	.col-mnu
 		background-color: transparent 
 		height: 86px
+
+	.slider
+		.slider_text
+			width: 100%
+
+	.slider_text_inner
+		padding: 0
+		margin-top: 170px
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) 

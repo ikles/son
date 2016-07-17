@@ -9,9 +9,9 @@
 
 .toggle-mnu {
   display: block;
-  width: 28px;
-  height: 28px;
-  margin: 25px 15px; }
+  width: 35px;
+  height: 35px;
+  margin: 35px 20px; }
   .toggle-mnu:focus {
     outline: none; }
 
@@ -958,6 +958,9 @@ h2 {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  .w_1200 {
+    width: -webkit-calc(100% - 20px);
+    width: calc(100% - 20px); }
   .search {
     display: none; }
   .main-mnu {
@@ -1034,13 +1037,21 @@ h2 {
         height: 44px;
         margin-right: 9px;
         margin-top: 3px; }
+  .top {
+    background-color: #303030; }
+    .top .w_1200 {
+      width: 100%; }
   .col-logo-mnu {
     margin-top: 0;
-    background-color: #303030;
     padding: 0 !important; }
   .col-mnu {
     background-color: transparent;
-    height: 86px; } }
+    height: 86px; }
+  .slider .slider_text {
+    width: 100%; }
+  .slider_text_inner {
+    padding: 0;
+    margin-top: 170px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
