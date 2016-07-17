@@ -309,9 +309,6 @@ ul {
   background-color: #f0f0f0;
   height: 210px; }
 
-.col-logo2 {
-  width: 270px; }
-
 .col-logo-mnu {
   margin-top: 30px; }
 
@@ -320,9 +317,6 @@ ul {
           box-sizing: border-box;
   background-color: #303030;
   height: 97px; }
-
-.col-mnu2 {
-  width: 900px; }
 
 .top_mnu.main-mnu {
   height: 97px;
@@ -1056,10 +1050,51 @@ h2 {
         height: 44px;
         margin-right: 9px;
         margin-top: 3px; }
+  .top2 .logo2 {
+    width: 170px;
+    height: 86px;
+    min-height: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10px;
+    position: relative; }
+    .top2 .logo2 img {
+      width: 55px;
+      float: left;
+      margin-top: 6px;
+      position: relative; }
+    .top2 .logo2 > div {
+      border-top: 0;
+      float: left;
+      margin-left: 8px;
+      font-size: 15px;
+      width: 85px;
+      text-align: left;
+      padding-top: 0;
+      line-height: 1.1; }
+      .top2 .logo2 > div span {
+        font-size: 9px;
+        position: absolute;
+        bottom: 9px;
+        left: 10px; }
+      .top2 .logo2 > div:before {
+        float: left;
+        content: "";
+        display: block;
+        width: 2px;
+        background-color: #2299ee;
+        height: 44px;
+        margin-right: 9px;
+        margin-top: 3px; }
   .top {
     background-color: #303030; }
     .top .w_1200 {
       width: 100%; }
+  .top.top2 {
+    background-color: #303030;
+    height: 86px; }
+  .categ {
+    width: 100%; }
   .col-logo-mnu {
     margin-top: 0;
     padding: 0 !important; }
@@ -1075,6 +1110,12 @@ h2 {
     margin-top: 170px;
     width: -webkit-calc(100% - 20px);
     width: calc(100% - 20px); }
+  .slider {
+    min-height: 169px; }
+  .col-content {
+    font-size: 14px; }
+    .col-content img {
+      max-width: 100%; }
   .w_1200.blocks {
     margin-top: 0; }
   .arrows_wrap {
@@ -1233,6 +1274,8 @@ h2 {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .col-content img {
+    max-width: 100%; }
   .logo2 {
     margin-left: auto;
     margin-right: auto;
