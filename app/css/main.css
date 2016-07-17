@@ -438,14 +438,14 @@ form.block {
     .top_mnu a:hover {
       text-decoration: none;
       background-color: #464a4d; }
-  .top_mnu .main-mnu .hover_a {
-    background-color: #464a4d; }
 
-.hover_a {
-  text-decoration: none;
-  background-color: #464a4d; }
+.main-mnu .hover_a {
+  background-color: #303030; }
 
 .main-mnu .active a {
+  background-color: #2090df; }
+
+.bot-mnu .active a {
   background-color: #2090df; }
 
 .w_1200.blocks {
@@ -1015,9 +1015,11 @@ h2 {
       .top_mnu.main-mnu ul ul a {
         padding: 10px 15px;
         font-family: Exo2EL;
-        font-size: 14px; }
+        font-size: 14px;
+        background-color: #303030; }
         .top_mnu.main-mnu ul ul a:hover {
-          text-decoration: none; }
+          text-decoration: none;
+          background-color: #464a4d; }
   .logo {
     width: 170px;
     height: 86px;
@@ -1232,6 +1234,8 @@ h2 {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .logo2 {
+    margin-left: auto;
+    margin-right: auto;
     width: 271px; }
     .logo2 > div {
       font-size: 23px; }
@@ -1257,7 +1261,18 @@ h2 {
     padding: 0; }
   .slider_text_inner {
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+  .our_services {
+    padding-top: 35px; }
+    .our_services p {
+      font-size: 12px; }
+  .last_art.our_services > div .img_a::before {
+    right: 30px; }
+  .our_services div div {
+    margin-bottom: 45px; }
+  .logo > div span {
+    font-size: 10px;
+    margin-top: 2px; } }
 
 @media only screen and (max-width: 640px) {
   /**/ }
