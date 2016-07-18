@@ -52,8 +52,8 @@ register_sidebar(array(
 'description' => '',
 'before_widget' => '<div class="order_consalt"><div class="w_1200">',
 'after_widget' => '</div></div>',
-'before_title' => '',
-'after_title' => ''
+'before_title' => '<div class="like_h3">',
+'after_title' => '</div>'
 ));
 
 

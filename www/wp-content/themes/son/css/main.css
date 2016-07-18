@@ -637,8 +637,14 @@ h2 {
   height: auto;
 }
 
+.wpcf7-response-output {
+  display: none !important;
+}
+
 .order_consalt_form form {
-  float: right; }
+  float: right;
+  overflow: hidden;
+  }
 
 .order_consalt_form input {
   width: 270px;
