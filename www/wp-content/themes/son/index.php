@@ -36,7 +36,8 @@
 	<?php dynamic_sidebar('order_consalt'); ?>			
 	<?php dynamic_sidebar('two_words_about_us'); ?>			
 	<?php dynamic_sidebar('our_services_line'); ?>				
-	<div class="our_services">
+	<?php dynamic_sidebar('our_services'); ?>
+	<!--div class="our_services">
 		<div class="w_1200">				
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<a class="img_a" href="#"><img src="img/service1.jpg" alt=""></a>
@@ -59,7 +60,7 @@
 				<p>Идейные соображения высшего порядка, а также укрепление и развитие структуры</p>
 			</div>
 		</div><!--w_1200 our_services-->
-	</div>
+	</div-->
 	<div class="order_consalt order_consalt2">
 		<div class="w_1200">
 			<div class="col-lg-3 col-dm-12 col-sm-12 col-xs-12 order_consalt_text">

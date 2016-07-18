@@ -76,6 +76,15 @@ register_sidebar(array(
 	'after_title' => '</h2>'
 	));
 
+register_sidebar(array(
+	'name' => 'Наши услуги',
+	'id' => 'our_services',
+	'description' => '',
+	'before_widget' => '<div class="our_services"><div class="w_1200">',
+	'after_widget' => '</div></div>',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>'
+	));
 
 
 

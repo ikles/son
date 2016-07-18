@@ -1,3 +1,9 @@
+.our_services > div .img_a img {
+  padding: 0 !important;
+  border: none !important; 
+  margin: 0 !important;
+}
+
 .two_words_about_us .textwidget {
   width: 75%;
   float: left;
