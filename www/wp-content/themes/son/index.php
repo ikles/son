@@ -31,47 +31,9 @@
 		</div><!--top-->		
 	</div><!--slider-->
 	<div class="w_1200 blocks">			
-		<?php dynamic_sidebar('blocks'); ?>
-		<!--div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-			<div class="blocks_text">
-				<div class="like_h3">Идейные соображения</div>
-				<p>Укрепление и развитие структуры способствует подготовки и реализации системы обучения кадров</p>
-			</div>
-		</div>
-		<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-			<div class="blocks_text">
-				<div class="like_h3">Новая модель</div>
-				<p>Укрепление и развитие структуры способствует подготовки и реализации системы обучения кадров</p>
-			</div>
-		</div>
-		<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-			<div class="blocks_text">
-				<div class="like_h3">Богатый опыт</div>
-				<p>Укрепление и развитие структуры способствует подготовки и реализации системы обучения кадров</p>
-			</div>
-		</div>
-		<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-			<div class="blocks_text">
-				<div class="like_h3">Значимость</div>
-				<p>Укрепление и развитие структуры способствует подготовки и реализации системы обучения кадров</p>
-			</div>
-		</div-->			
+		<?php dynamic_sidebar('blocks'); ?>			
 	</div><!--w_1200 blocks-->
-	<div class="order_consalt">
-		<div class="w_1200">
-			<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 order_consalt_text">
-				<div class="like_h3">Заказать консультацию</div>
-				<p>Наш специалист проконсультирует вас бесплатно.</p>
-			</div>
-			<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 order_consalt_form">				
-				<form>
-					<input type="text" placeholder="Ваше имя">
-					<input type="text" placeholder="Ваш телефон">
-					<input type="submit" value="Заказать консультацию">
-				</form>
-			</div>
-		</div>
-	</div><!--order_consalt-->
+	<?php dynamic_sidebar('order_consalt'); ?>			
 	<div class="two_words_about_us">
 		<div class="w_1200">
 			<div class="col-lg-3 col-md-12 col-xs-12 about_us_heading">

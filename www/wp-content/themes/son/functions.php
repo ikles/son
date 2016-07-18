@@ -46,6 +46,15 @@ register_sidebar(array(
 ));
 
 
+register_sidebar(array(
+'name' => 'Заказать консультацию на главной',
+'id' => 'order_consalt',
+'description' => '',
+'before_widget' => '<div class="order_consalt"><div class="w_1200">',
+'after_widget' => '</div></div>',
+'before_title' => '',
+'after_title' => ''
+));
 
 
 
