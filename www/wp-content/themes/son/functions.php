@@ -86,6 +86,17 @@ register_sidebar(array(
 	'after_title' => '</h2>'
 	));
 
+register_sidebar(array(
+	'name' => 'Статьи',
+	'id' => 'last_art',
+	'description' => '',
+	'before_widget' => '<div class="w_1200 last_art our_services">',
+	'after_widget' => '</div>',
+	'before_title' => '<div class="last_art_heading"><div class="like_h2">',
+	'after_title' => '</div></div>'
+	));
+
+
 
 
 add_action( 'after_setup_theme', 'woocommerce_support' );
