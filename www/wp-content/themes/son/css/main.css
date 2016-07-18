@@ -1,3 +1,17 @@
+.two_words_about_us .textwidget {
+  width: 75%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.about_us_heading {
+  width: 25%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .slider ul img {
   height: 813px !important
   width: 1920px !important;
@@ -705,18 +719,18 @@ h2 {
   .two_words_about_us_like_h2 b, .last_art .like_h2 b {
     font-family: Exo2; }
 
-.about_us_text {
+.two_words_about_us .textwidget {
   padding-top: 70px;
   color: #303030;
   font-family: PTSans;
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 70px; }
-  .about_us_text p {
+  .two_words_about_us .textwidget p {
     margin-bottom: 35px; }
-    .about_us_text p:last-child {
+    .two_words_about_us .textwidget p:last-child {
       margin-bottom: 0; }
-  .about_us_text h2 {
+  .two_words_about_us .textwidget h2 {
     color: #303030;
     font-family: Exo2L;
     font-size: 30px;
@@ -725,11 +739,11 @@ h2 {
     margin-bottom: 22px;
     padding-bottom: 0;
     line-height: 1; }
-    .about_us_text h2:after {
+    .two_words_about_us .textwidget h2:after {
       display: none; }
 
 .about_us_heading {
-  padding-right: 40px;
+  padding-right: 53px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
@@ -1243,10 +1257,10 @@ h2 {
     font-size: 42px;
     margin-bottom: 40px;
     padding-bottom: 18px; }
-  .about_us_text {
+  .two_words_about_us .textwidget {
     padding-top: 0;
     font-size: 14px; }
-    .about_us_text h2 {
+    .two_words_about_us .textwidget h2 {
       margin-bottom: 20px;
       font-size: 26px; }
   .our_services_line {
