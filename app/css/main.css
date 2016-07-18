@@ -955,6 +955,30 @@ h2 {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  .left-consult .order_consalt .order_consalt_text, .left-consult .our_services_line .order_consalt_text {
+    width: 100%; }
+  .col-content {
+    padding-top: 35px; }
+  .left-consult {
+    margin-bottom: 20px; }
+    .left-consult .order_consalt, .left-consult .our_services_line {
+      padding-top: 0;
+      background-color: #464A4D;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 25px; }
+      .left-consult .order_consalt input, .left-consult .our_services_line input {
+        width: 100%; }
+      .left-consult .order_consalt .like_h3, .left-consult .our_services_line .like_h3 {
+        color: #FFF; }
+      .left-consult .order_consalt p, .left-consult .our_services_line p {
+        margin-bottom: 10px;
+        color: #FFF; }
+  .left-consult .order_consalt input[type="submit"], .left-consult .our_services_line input[type="submit"] {
+    width: 100%; }
+  .left-consult .order_consalt .order_consalt_text, .left-consult .our_services_line .order_consalt_text {
+    padding-right: 0;
+    background: none; }
   .w_1200 {
     width: -webkit-calc(100% - 20px);
     width: calc(100% - 20px); }
@@ -1274,13 +1298,18 @@ h2 {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .col-content img {
-    max-width: 100%; }
-  .logo2 {
+  .col-content {
+    padding-left: 0;
+    padding-right: 0; }
+    .col-content img {
+      max-width: 100%; }
+  .left-consult {
+    padding: 0; }
+  .bottom .logo2 {
     margin-left: auto;
     margin-right: auto;
     width: 271px; }
-    .logo2 > div {
+    .bottom .logo2 > div {
       font-size: 23px; }
   .bot-mnu {
     margin-top: 35px;
