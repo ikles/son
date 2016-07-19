@@ -96,7 +96,47 @@ register_sidebar(array(
 	'after_title' => '</div></div>'
 	));
 
+register_sidebar(array(
+	'name' => 'Нижнее меню',
+	'id' => 'bot-mnu',
+	'description' => '',
+	'before_widget' => '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bot-mnu">',
+	'after_widget' => '</div>',
+	'before_title' => '<div class="bottom_head">',
+	'after_title' => '</div>'
+	));
 
+
+register_sidebar(array(
+	'name' => 'Контакты в в футере',
+	'id' => 'footer_contacts',
+	'description' => '',
+	'before_widget' => '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cot-bot-contacts">',
+	'after_widget' => '</div>',
+	'before_title' => '<div class="bottom_head">',
+	'after_title' => '</div>'
+	));
+
+register_sidebar(array(
+	'name' => 'Социальные ссылки в футере',
+	'id' => 'social',
+	'description' => '',
+	'before_widget' => '<div class="w_1200"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 social">',
+	'after_widget' => '</div></div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
+
+
+register_sidebar(array(
+	'name' => 'Копирайт в футере',
+	'id' => 'copy',
+	'description' => '',
+	'before_widget' => '<div class="w_1200 copy">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
 
 
 add_action( 'after_setup_theme', 'woocommerce_support' );
