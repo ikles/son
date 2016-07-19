@@ -1,3 +1,16 @@
+.categor li {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.categor li a {
+  font-size: 18px;
+}
+
+.left-consult {
+  padding-bottom: 30px;
+}
+
 .last_art_heading {
   width: 25%; 
   float: left;
@@ -492,10 +505,10 @@ form.block {
 .main-mnu .hover_a {
   background-color: #464a4d; }
 
-.main-mnu .current-menu-item a {
+.main-mnu .current-menu-item > a {
   background-color: #2090df; }
 
-.bot-mnu .current-menu-item a {
+.bot-mnu .current-menu-item > a {
   background-color: #2090df; }
 
 .w_1200.blocks {

@@ -139,19 +139,20 @@ register_sidebar(array(
 	));
 
 
+register_sidebar(array(
+	'name' => 'Заказать консультацию на внутренних',
+	'id' => 'order_consalt2',
+	'description' => '',
+	'before_widget' => '<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 left-consult"><div class="order_consalt">	',
+	'after_widget' => '</div></div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
+
 add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }
-
-/*add_filter('loop_shop_per_page', create_function('$cols', 'return 3;'));
-
-add_filter('loop_shop_columns', 'loop_columns');
-if (!function_exists('loop_columns')) {
-function loop_columns() {
-	return 3;
-}
-}*/
 
 add_action( 'product_cat_edit_form_fields', 'wpm_taxonomy_edit_meta_field', 10, 2 );
 
