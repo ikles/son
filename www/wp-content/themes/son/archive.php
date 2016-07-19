@@ -19,7 +19,7 @@
               <div class="hidden-lg">
                 <a href="#" class="toggle-mnu"><span></span></a>
               </div>
-              <div class="search">
+              <div class="search2">
                 <div class="glass"></div>
                 <?php dynamic_sidebar('search'); ?>
               </div>
